@@ -6,7 +6,7 @@ const Footer = (props) => {
 
     let h1text = "Instructions for Aliens"
     let ptext = 'Flying aboard Voyagers 1 and 2 are identical "golden" records, carrying the story of Earth far into deep space. This gold aluminum cover was designed to protect the gold-plated records from micrometeorite bombardment, but also serves a double purpose in providing the finder a key to playing the record.'
-    if (mData!=null){
+    if (mData.hdurl){
         h1text = mData?.title
         ptext = mData?.explanation
     }
