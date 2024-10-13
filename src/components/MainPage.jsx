@@ -4,7 +4,7 @@ const MainPage = (props) => {
     const {handleInfoClick,mData} = props;
     let imageStyle = {
     }
-    if (mData.hdurl){
+    if (mData && mData.hdurl){
         imageStyle.backgroundImage = 'url('+mData.hdurl+")"
     }
     return (
